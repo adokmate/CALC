@@ -1,0 +1,71 @@
+#sum, #error
+{
+	height : 150px;
+	margin: 0px 20px;
+	background-color : #F7F7F7;
+}
+
+#sum h4
+{
+	font-size : 36px;
+	margin : 0;
+	padding-top: 35px;
+}
+
+#sum h5
+{
+	font-weight : 400;
+	font-size : 18px;
+	margin : 0;
+	margin-top: 10px;
+}
+
+.type h4, .center h3
+{
+	font-weight : normal;
+	font-size : 14px;
+	margin : 0;
+	margin-bottom : 12px;
+}
+
+select
+{
+	font-size : 18px;
+	padding-left : 20px;
+	height : 45px;
+	width : 100%;
+	border: 0px;
+	background-color: #F7F7F7;
+	margin-bottom: 20px;
+}
+
+.date
+{
+	width : 48%;
+	margin-bottom: 30px;
+}
+
+.type
+{
+	margin-bottom: 10px;
+}
+
+.right
+{
+	float: right;
+}
+
+#error h5
+{
+	font-weight : 400;
+	font-style : italic;
+	font-size : 16px;
+	color : #C72026;
+	margin : 0;
+	padding: 0px 20px;
+}
+
+#error ul
+{
+	padding-top: 20px;
+}

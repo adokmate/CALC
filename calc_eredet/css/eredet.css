@@ -1,0 +1,56 @@
+.center
+{
+	padding : 31px; 
+}
+
+.motorkerekparok
+{
+	display : none;
+}
+
+.kisteherautok
+{
+	display : none;
+}
+
+.tehergepkocsi
+{
+	display : none;
+}
+
+.autobuszok
+{
+	display : none;
+}
+
+.mezogazdasagi
+{
+	display : none;
+}
+
+.potkocsi
+{
+	display : none;
+}
+
+h5
+{
+	padding-left: 20px;
+	margin: 0;
+}
+
+.ft
+{
+	vertical-align: top;
+}
+
+select
+{
+	font-weight : 400;
+	font-style : italic;
+	font-size : 14px;
+	padding-left : 12px;
+	height : 34px;
+	width : 257px;
+	color : #2D2D2D;
+}

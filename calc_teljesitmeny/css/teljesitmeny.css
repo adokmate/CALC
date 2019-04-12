@@ -1,0 +1,46 @@
+.center
+{
+	font-weight : normal;
+	padding-left : 31px;
+	padding-right : 31px;
+	
+}
+
+.center h4
+{
+	font-weight : normal;
+	margin-top : 10px;
+	margin-bottom : 0;
+}
+
+
+.date
+{
+	width : 70px;
+}
+
+#sum
+{
+
+	height: 89px;
+	line-height: 89px;
+}
+
+#sum h4
+{
+	font-weight : normal;
+	text-align : center;
+	margin : 0;
+}
+
+#error
+{
+	color: red;
+	text-align : center;
+}
+
+#error h4
+{
+	font-weight : normal;
+	margin : 0px;
+}

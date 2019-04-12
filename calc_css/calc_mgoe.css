@@ -1,0 +1,224 @@
+body
+{
+	margin: 0;
+	padding: 0;	
+}
+
+#sum
+{
+	text-align : center;
+	background-color : #E1E1E1;
+	border-bottom : solid 1px #C1C1C1;
+}
+
+.frame
+{
+	width: 319px;
+	background-color: #F0F0F0;
+	font-size: 14px;
+	color: #2D2D2D;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: normal;
+	border-left: solid 1px #C1C1C1;
+	border-right: solid 1px #C1C1C1;
+	border-bottom: solid 1px #C1C1C1;
+	font-family: 'Ubuntu';
+}
+
+.calc-form
+{
+	margin: 0;
+}
+
+.title
+{
+	background-color: #0088CC;
+	height: 35px; 
+	padding-top : 12px;
+	border-radius: 5px 5px 0px 0px; 
+	padding-left: 31px;
+	padding-right: 31px;
+	border-top: solid 1px #C1C1C1;
+	border-bottom: solid 1px #C1C1C1;
+}
+
+.title h1
+{
+	font-size: 18px;
+	color: white;
+	text-align: center;	
+	font-style : medium;
+	margin: 0;
+}
+
+.invisible
+{
+	display: none;
+}
+
+.form-submit
+{
+	width: 165px;
+	height: 34px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-style : medium;
+	background-color: #0088CC;
+	border-radius: 5px;
+	border: solid 1px #167AAC;
+}
+
+.form-submit:hover
+{
+	background-color: #FF7E00;
+	border: solid 1px #FF8E20;
+}
+
+.submit
+{
+	text-align: center;
+	padding-top: 33px;
+	padding-bottom: 24px;
+}
+
+#zero
+{
+	height: 9px;
+	border-radius: 0px 0px 5px 5px; 
+	background-color: #0088CC;
+}
+
+select
+{
+	border: solid 1px white;
+	border-radius: 3px;
+}
+
+.input
+{
+	border: solid 1px white;
+	border-radius: 3px;
+}
+
+.validation-error
+{
+	color: #E20000;
+	border: 1px solid #E20000;
+}
+
+ul
+{
+	margin : 0;
+	padding-left: 15px;
+	list-style-image: url('../images/counter_x.png');
+}
+
+li
+{
+	padding-left : 15px;
+}
+
+label, p
+{
+	float: right;
+}
+
+p
+{
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+.p_active
+{
+	color: #0088CC;
+	font-weight: bold;
+}
+
+.active 
+{
+	background-image: url('../images/active_mgoe.png');
+	background-repeat : no-repeat;
+	background-size : contain; 
+	background-position : center center;
+    border: solid 1px #0088CC;
+}
+
+.inactive
+{
+	background-color: white;
+    border: solid 1px #C1C1C1;
+}
+
+.kw input, .le input
+{
+    position: relative;
+    z-index: -9999;
+}
+
+.kw span, .le span 
+{
+    width: 23px;
+    height: 23px;
+    display: block;
+    border-radius: 5px;
+}
+
+.kw span:hover, .le span:hover
+{
+   
+    background-color: #0088CC;
+    border: solid 1px #0088CC;
+}
+
+.slectOne
+{
+	margin: 0;
+}
+
+#p_kw, #p_le
+{
+	margin-left: 5px;
+}
+
+#p_le
+{
+	margin-right: 15px;
+}
+
+#p_kw
+{
+	margin-right: 4px; 
+}
+
+@media screen and (max-width: 768px)
+{
+	.frame
+	{
+		width: 288px;
+	}
+
+	.calc-form
+	{
+		padding-left: 16px;
+    	padding-right: 16px;
+	}
+
+	.center
+	{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.koz 
+	{
+    	margin-right: 16px !important;
+	}
+
+	.type
+	{
+		padding-left: 0px !important;
+	}
+}

@@ -1,0 +1,155 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sum
+{
+	text-align : center;
+	background-color : #F7F7F7;
+}
+
+.frame
+{
+	width: 100%;
+	max-width: 445px;
+	font-size: 14px;
+	color: #333332;
+	font-weight: normal;
+	font-family: 'Ubuntu';
+	padding-top: 20px;
+	background-color: white;
+}
+
+.calc-form
+{
+	margin: 0;
+	padding: 20px 30px;
+}
+
+.title
+{
+display: none;
+}
+
+.invisible
+{
+	display: none;
+}
+
+.form-submit
+{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	background-color: #C72026;
+	border-radius: 3px;
+	border: 0px;
+}
+
+.form-submit:hover
+{
+	color: #333332;
+}
+
+.submit
+{
+	text-align: center;
+	padding-top: 33px;
+}
+
+.validation-error
+{
+	color: #C72026;
+	border: 1px solid #C72026;
+}
+
+ul
+{
+	margin : 0;
+	padding-left: 15px;
+	list-style-image: url('../images/counter_x.png');
+}
+
+li
+{
+	padding-left : 15px;
+}
+
+label, p
+{
+	float: right;
+}
+
+p
+{
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+.p_active
+{
+	color: #C72026;
+	font-weight: bold;
+}
+
+.active 
+{
+	background-image: url('../images/active_alapjarat.png');
+	background-repeat : no-repeat;
+	background-size : contain; 
+	background-position : center center;
+    border: solid 1px #C72026;
+}
+
+.inactive
+{
+	background-color: white;
+    border: solid 1px #A1A1A1;
+}
+
+.kw input, .le input
+{
+    position: absolute;
+    z-index: -9999;
+}
+
+.kw span, .le span 
+{
+    width: 23px;
+    height: 23px;
+    display: block;
+    border-radius: 5px;
+}
+
+.kw span:hover, .le span:hover
+{
+   
+    background-color: #C72026;
+    border: solid 1px #C72026;
+}
+
+.slectOne
+{
+	margin: 0;
+}
+
+#p_kw, #p_le
+{
+	margin-left: 5px;
+}
+
+#p_le
+{
+	margin-right: 15px;
+}
+
+#p_kw
+{
+	margin-right: 4px; 
+}

@@ -1,0 +1,101 @@
+#sum
+{
+	height : 100px;
+	padding-top : 15px;	
+}
+
+#sum h4
+{
+	font-size : 36px;
+	margin : 0;
+	padding-bottom: 15px;
+}
+
+#sum h5
+{
+	font-weight : 400;
+	font-size : 16px;
+	margin : 0;
+}
+
+.type
+{
+	padding-bottom : 25px;
+}
+
+.type h4
+{
+	font-weight : normal;
+	font-style : regular;
+	font-size : 16px;
+	margin : 0;
+	margin-bottom : 12px;
+}
+
+select
+{
+	font-weight : 400;
+	font-size : 14px;
+	padding-left : 12px;
+	height : 34px;
+	width : 257px;
+	color : #777A7D;
+}
+
+.center
+{
+	font-weight : normal;
+	padding-left : 31px;
+	padding-right : 31px;
+	
+}
+
+.center h3
+{
+	font-weight : normal;
+	font-style : regular;
+	font-size : 16px;
+	margin : 0;
+	margin-bottom : 12px;
+}
+
+.date
+{
+	width: 48% !important;
+}
+
+.right
+{
+	float: right;
+}
+
+.stb
+{
+	margin-top : 24px;
+	margin-bottom: 5px;
+}
+
+#error
+{
+	height : 100px;
+	padding-left : 31px;
+	padding-right : 31px;
+}
+	
+#error h5
+{
+	font-weight : 400;
+	font-size : 12px;
+	margin : 0;
+	padding-top : 10px;
+}
+
+.submit
+{
+	padding-bottom: 0px;
+}
+
+#elektromos
+{
+	text-align: center;
+}

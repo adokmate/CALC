@@ -1,0 +1,58 @@
+#sum, #error
+{
+	padding: 20px 0px;
+	margin: 0px 20px;
+	background-color: #F7F7F7;
+}
+
+.title2
+{
+	width : 150px; 
+	padding-bottom : 10px;
+	font-size: 16px;
+}
+
+.value
+{
+	padding-bottom : 10px;
+	text-align : right;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+select
+{
+	font-size : 18px;
+	padding-left : 20px;
+	height : 45px;
+	width : 100%;
+	border: 0px;
+	background-color: #F7F7F7;
+	margin-bottom: 20px;
+}
+
+#error
+{
+	height: 135px;
+}
+	
+#error h5
+{
+	font-weight : 400;
+	font-style : italic;
+	font-size : 16px;
+	color : #C72026;
+	margin : 0;
+	padding: 0px 20px;
+}
+
+table
+{
+	width: 257px;
+	margin: auto;
+}
+
+.submit
+{
+	padding-top: 13px;
+}
